@@ -6,15 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apex Legion Enterprises - Contact</title>
 
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-
-    <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -28,7 +26,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
@@ -36,15 +34,25 @@
 
 <main>
 
-    <!-- Hero Section -->
 
     <section class="hero">
 
-        <h2>Contact Apex Legion Enterprises</h2>
+        <div class="hero-text">
 
-        <p>
-            Need a superhero? Have a question? Contact us anytime. Our team is available 24/7 to assist you.
-        </p>
+            <h2>Contact Apex Legion Enterprises</h2>
+
+            <p>
+                Need a superhero? Have a question? Contact us anytime.
+                Our team is available 24/7 to assist you.
+            </p>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="images (4).jfif" alt="Contact Us">
+
+        </div>
 
     </section>
 
@@ -54,71 +62,73 @@
 
         <h2>Contact Information</h2>
 
-        <div class="service-box">
+        <div class="services-container">
 
-            <h3>📍 Office Address</h3>
+            <div class="service-box">
 
-            <p>
-                Apex Legion Enterprises<br>
-                Tony Stark Tower<br>
-                Justice Avenue, Metro City, 54000
-            </p>
+                <h3>📍 Office</h3>
 
-        </div>
+                <p>
+                    Apex Legion Enterprises<br>
+                    Tony Stark Tower<br>
+                    Justice Avenue, Metro City
+                </p>
 
-        <div class="service-box">
+            </div>
 
-            <h3>📧 Email</h3>
+            <div class="service-box">
 
-            <p>info@apexlegion.com</p>
+                <h3>📧 Email</h3>
 
-        </div>
+                <p>info@apexlegion.com</p>
 
-        <div class="service-box">
+            </div>
 
-            <h3>📞 Phone</h3>
+            <div class="service-box">
 
-            <p>+92-300-1234567</p>
+                <h3>📞 Phone</h3>
 
-        </div>
+                <p>+92 300 1234567</p>
 
-        <div class="service-box">
+            </div>
 
-            <h3>🕒 Office Hours</h3>
+            <div class="service-box">
 
-            <p>Available 24 Hours a Day, 7 Days a Week</p>
+                <h3>🕒 Working Hours</h3>
+
+                <p>24 Hours | 7 Days a Week</p>
+
+            </div>
 
         </div>
 
     </section>
 
-    <!-- Contact Form -->
 
     <section>
 
         <h2>Send Us a Message</h2>
 
-        <form action="#" method="post">
+        <form action="#">
 
-            <label for="name">Full Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name" required>
 
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <label>Email Address</label>
+            <input type="email" placeholder="Enter your email" required>
 
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Enter your phone number">
 
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject" placeholder="Enter subject">
+            <label>Subject</label>
+            <input type="text" placeholder="Enter subject">
 
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="6" placeholder="Write your message here..."
-                required></textarea>
+            <label>Message</label>
+            <textarea rows="6" placeholder="Write your message here..." required></textarea>
 
-            <button type="submit" class="btn">Send Message</button>
-
-            <button type="reset" class="btn">Clear Form</button>
+            <button class="btn" type="submit">
+                Send Message
+            </button>
 
         </form>
 
@@ -128,21 +138,49 @@
 
 <footer>
 
-    <p>&copy; 2026 Apex Legion Enterprises. All Rights Reserved.</p>
+    <div class="footer-column">
 
-    <p>Email: info@apexlegion.com</p>
+        <h3>Company</h3>
 
-    <p>
-        Follow Us:
-        <a href="#">Facebook</a> |
-        <a href="#">Instagram</a> |
-        <a href="#">LinkedIn</a> |
+        <p>Apex Legion Enterprises</p>
+
+        <p>Professional Superhero Services Since 2006</p>
+
+    </div>
+
+    <div class="footer-column">
+
+        <h3>Quick Links</h3>
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+
+    </div>
+
+    <div class="footer-column">
+
+        <h3>Contact</h3>
+
+        <p>Email: info@apexlegion.com</p>
+
+        <p>Phone: +92 300 1234567</p>
+
+    </div>
+
+    <div class="footer-column">
+
+        <h3>Follow Us</h3>
+
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
         <a href="#">Twitter</a>
-    </p>
+
+    </div>
 
 </footer>
 
 </body>
-
 </html>
-

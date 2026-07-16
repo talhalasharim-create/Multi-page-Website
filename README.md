@@ -17,12 +17,12 @@ Apex Legion Enterprises is a fictional multi-page company website. The site imag
 ## Technologies Used
 - HTML Only
 
-## How to Run
+ How to Run
 1. Clone or download this repository.
 2. Open `index.html` in any web browser.
 3. Use the navigation bar to move between Home, About, Services, and Contact pages.
 
-## File Structure
+File Structure
 
 1. index.html
 2. about.html
