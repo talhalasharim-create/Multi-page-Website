@@ -6,237 +6,325 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apex Legion Enterprises - Home</title>
 
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@600;700;800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+
 </head>
 
-<body>
+<body class="bg-slate-100 text-gray-800">
 
-<header>
+    <header class="bg-slate-900 text-white shadow-lg">
 
-    <h1>Apex Legion Enterprises</h1>
+        <div class="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row justify-between items-center">
 
-    <nav>
-        <ul>
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+            <h1 class="text-3xl font-bold">
+                Apex Legion Enterprises
+            </h1>
 
-</header>
+            <nav class="mt-4 md:mt-0">
 
-<main>
+                <ul class="flex gap-6 font-medium">
 
-    <section class="hero">
+                    <li><a href="index.html" class="text-sky-400">Home</a></li>
 
-        <div class="hero-text">
+                    <li><a href="about.html" class="hover:text-sky-400 transition">About</a></li>
 
-            <h2>Welcome to Apex Legion Enterprises</h2>
+                    <li><a href="services.html" class="hover:text-sky-400 transition">Services</a></li>
 
-            <p>
-                Earth's premier superhero staffing agency connecting cities in crisis with certified,
-                insured, and highly trained superheroes since 2006.
+                    <li><a href="contact.html" class="hover:text-sky-400 transition">Contact</a></li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main class="max-w-7xl mx-auto px-6 py-10">
+
+
+        <section
+            class="bg-white rounded-2xl shadow-lg p-10 flex flex-col lg:flex-row items-center gap-10">
+
+            <div class="lg:w-1/2">
+
+                <h2 class="text-5xl font-bold text-slate-900 mb-6">
+                    Welcome to Apex Legion Enterprises
+                </h2>
+
+                <p class="text-gray-600 text-lg mb-8">
+
+                    Earth's premier superhero staffing agency connecting cities in crisis with
+                    certified, insured and highly trained superheroes since 2006.
+
+                </p>
+
+                <a href="services.html"
+                    class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+
+                    Explore Our Services
+
+                </a>
+
+            </div>
+
+            <div class="lg:w-1/2">
+
+                <img src="images (3).jfif"
+                    class="rounded-xl shadow-lg w-full"
+                    alt="Hero">
+
+            </div>
+
+        </section>
+
+
+        <section class="mt-12 bg-white rounded-2xl shadow-lg p-8">
+
+            <h2 class="text-3xl font-bold mb-5">
+                Company Introduction
+            </h2>
+
+            <p class="text-gray-600 mb-4">
+
+                Apex Legion Enterprises is the world's leading professional superhero organization.
+
             </p>
 
-            <a href="services.html" class="btn">
-                Explore Our Services
-            </a>
+            <p class="text-gray-600">
 
-        </div>
+                From alien invasions to rescue missions, our heroes are available 24/7.
 
-        <div class="hero-image">
+            </p>
 
-            <img src="images (3).jfif" alt="Apex Legion Enterprises Hero">
-
-        </div>
-
-    </section>
+        </section>
 
 
-    <section>
+        <section class="mt-12">
 
-        <h2>Company Introduction</h2>
+            <h2 class="text-3xl font-bold text-center mb-10">
 
-        <p>
-            Apex Legion Enterprises is the world's leading professional superhero organization.
-            We manage elite crime-fighters, disaster responders and public safety experts.
-        </p>
+                Featured Services
 
-        <p>
-            From alien invasions to rescue missions, our heroes are available 24/7.
-        </p>
+            </h2>
 
-    </section>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
+                <div class="bg-white rounded-xl shadow-lg p-6">
 
-    <section>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">
+                        Emergency Crime Response
+                    </h3>
 
-        <h2>Featured Services</h2>
+                    <p class="text-gray-600 mb-6">
+                        Fast emergency response for crimes and attacks.
+                    </p>
 
-        <div class="services-container">
+                    <a href="services.html"
+                        class="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700">
 
-            <div class="service-box">
+                        Learn More
 
-                <h3>Emergency Crime Response</h3>
+                    </a>
 
-                <p>
-                    Fast emergency response for crimes and attacks.
-                </p>
+                </div>
 
-                <a href="services.html" class="btn">
-                    Learn More
-                </a>
+                <div class="bg-white rounded-xl shadow-lg p-6">
+
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">
+                        Natural Disaster Rescue
+                    </h3>
+
+                    <p class="text-gray-600 mb-6">
+                        Rescue operations during floods and earthquakes.
+                    </p>
+
+                    <a href="services.html"
+                        class="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700">
+
+                        Learn More
+
+                    </a>
+
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6">
+
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">
+                        Public Safety Campaigns
+                    </h3>
+
+                    <p class="text-gray-600 mb-6">
+                        Community awareness and emergency preparedness.
+                    </p>
+
+                    <a href="services.html"
+                        class="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700">
+
+                        Learn More
+
+                    </a>
+
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6">
+
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">
+                        Corporate Security
+                    </h3>
+
+                    <p class="text-gray-600 mb-6">
+                        Security consulting for businesses.
+                    </p>
+
+                    <a href="services.html"
+                        class="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700">
+
+                        Learn More
+
+                    </a>
+
+                </div>
 
             </div>
 
-            <div class="service-box">
+        </section>
 
-                <h3>Natural Disaster Rescue</h3>
 
-                <p>
-                    Rescue operations during floods, storms and earthquakes.
-                </p>
+        <section class="mt-12">
 
-                <a href="services.html" class="btn">
-                    Learn More
-                </a>
+            <h2 class="text-3xl font-bold text-center mb-10">
+
+                What Our Clients Say
+
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <div class="bg-white rounded-xl shadow-lg p-6">
+
+                    <p class="italic text-gray-600">
+
+                        "Apex Legion had a hero on the scene within minutes."
+
+                    </p>
+
+                    <h4 class="mt-5 font-semibold">
+                        — Mayor, Metro City
+                    </h4>
+
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6">
+
+                    <p class="italic text-gray-600">
+
+                        "Professional, fast and incredibly reassuring."
+
+                    </p>
+
+                    <h4 class="mt-5 font-semibold">
+                        — CEO, Stark Holdings
+                    </h4>
+
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6">
+
+                    <p class="italic text-gray-600">
+
+                        "Outstanding emergency preparation programs."
+
+                    </p>
+
+                    <h4 class="mt-5 font-semibold">
+                        — Principal, Metro High School
+                    </h4>
+
+                </div>
 
             </div>
 
-            <div class="service-box">
+        </section>
 
-                <h3>Public Safety Campaigns</h3>
+    </main>
 
-                <p>
-                    Community awareness and emergency preparedness.
-                </p>
+    <footer class="bg-slate-900 text-white mt-16">
 
-                <a href="services.html" class="btn">
-                    Learn More
-                </a>
+        <div class="max-w-7xl mx-auto px-6 py-10 grid md:grid-cols-4 gap-8">
 
-            </div>
+            <div>
 
-            <div class="service-box">
+                <h3 class="text-xl font-semibold mb-4">Company</h3>
 
-                <h3>Corporate Security</h3>
+                <p>Apex Legion Enterprises</p>
 
-                <p>
-                    Security consulting for businesses and organizations.
-                </p>
-
-                <a href="services.html" class="btn">
-                    Learn More
-                </a>
+                <p>Professional Superhero Services Since 2006</p>
 
             </div>
 
-        </div>
+            <div>
 
-    </section>
+                <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
 
+                <ul class="space-y-2">
 
-    <section>
+                    <li><a href="index.html" class="hover:text-sky-400">Home</a></li>
+                    <li><a href="about.html" class="hover:text-sky-400">About</a></li>
+                    <li><a href="services.html" class="hover:text-sky-400">Services</a></li>
+                    <li><a href="contact.html" class="hover:text-sky-400">Contact</a></li>
 
-        <h2>What Our Clients Say</h2>
+                </ul>
 
-        <div class="testimonials-container">
-
-            <div class="testimonial-card">
-                <p>
-                    "Apex Legion had a hero on the scene within minutes of our call.
-                    Genuinely saved our city during the flood crisis."
-                </p>
-                <span class="testimonial-author">— Mayor, Metro City</span>
             </div>
 
-            <div class="testimonial-card">
-                <p>
-                    "Professional, fast, and incredibly reassuring to work with.
-                    Our corporate security has never been better."
-                </p>
-                <span class="testimonial-author">— CEO, Stark Holdings</span>
+            <div>
+
+                <h3 class="text-xl font-semibold mb-4">Contact</h3>
+
+                <p>info@apexlegion.com</p>
+
+                <p>+92 300 1234567</p>
+
             </div>
 
-            <div class="testimonial-card">
-                <p>
-                    "Their public safety workshops changed how our entire school
-                    district prepares for emergencies."
-                </p>
-                <span class="testimonial-author">— Principal, Metro High School</span>
-            </div>
+            <div>
 
-        </div>
+                <h3 class="text-xl font-semibold mb-4">Follow Us</h3>
 
-    </section>
+                <div class="flex gap-4">
 
-</main>
+                    <a href="#" class="hover:text-sky-400">Facebook</a>
+                    <a href="#" class="hover:text-sky-400">Instagram</a>
+                    <a href="#" class="hover:text-sky-400">LinkedIn</a>
+                    <a href="#" class="hover:text-sky-400">Twitter</a>
 
-<footer>
+                </div>
 
-    <div class="footer-top">
-
-        <div class="footer-column">
-
-            <h3>Company</h3>
-
-            <p>Apex Legion Enterprises</p>
-
-            <p>Professional Superhero Services Since 2006</p>
-
-        </div>
-
-        <div class="footer-column">
-
-            <h3>Quick Links</h3>
-
-            <a href="index.html">Home</a>
-
-            <a href="about.html">About</a>
-
-            <a href="services.html">Services</a>
-
-            <a href="contact.html">Contact</a>
-
-        </div>
-
-        <div class="footer-column">
-
-            <h3>Contact</h3>
-
-            <p>Email: info@apexlegion.com</p>
-
-            <p>Phone: +92 300 1234567</p>
-
-        </div>
-
-        <div class="footer-column">
-
-            <h3>Follow Us</h3>
-
-            <div class="social-icons">
-                <a href="#" aria-label="Facebook">FB</a>
-                <a href="#" aria-label="Instagram">IG</a>
-                <a href="#" aria-label="LinkedIn">in</a>
-                <a href="#" aria-label="Twitter">X</a>
             </div>
 
         </div>
 
-    </div>
+        <div class="bg-slate-950 text-center py-4">
 
-    <div class="footer-bottom">
-        <p>&copy; 2026 Apex Legion Enterprises. All Rights Reserved.</p>
-    </div>
+            © 2026 Apex Legion Enterprises. All Rights Reserved.
 
-</footer>
+        </div>
+
+    </footer>
 
 </body>
 

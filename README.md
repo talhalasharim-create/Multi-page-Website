@@ -1,31 +1,79 @@
 # Apex Legion Enterprises 🦸‍♂️
 
-Name: M TALHA
+**Name:** M Talha
 
-## Project Description
-Apex Legion Enterprises is a fictional multi-page company website. The site imagines a professional superhero staffing agency that connects cities in crisis with certified superheroes, showcasing semantic HTML structure across multiple linked pages: Home, About, Services, and Contact.
 
-## Features Added
-- Multi-page website with working navigation bar (Home, About, Services, Contact)
-- Semantic HTML elements throughout (`header`, `nav`, `main`, `section`, `article`, `footer`)
-- Hero section and company introduction on the Home page
-- Company overview, mission, vision, and team members on the About page
-- Four detailed services listed with headings, paragraphs, and lists
-- Contact page with office address, email, phone number, and contact form
-- Footer with copyright, contact email, and social media links on every page
+# Project Description
 
-## Technologies Used
-- HTML Only
+Apex Legion Enterprises is a fictional multi-page company website developed as a web development assignment. The website represents a professional superhero staffing agency that connects cities in crisis with certified superheroes. It includes multiple responsive pages designed using Tailwind CSS and HTML.
 
- How to Run
+
+# Features
+
+- Responsive multi-page website
+- Navigation bar linking all pages
+- Home page with hero section and featured services
+- About page with company story, mission, vision, and hero team
+- Services page displaying professional superhero services
+- Contact page with company information and contact form
+- Responsive card layouts
+- Modern footer with quick links and contact details
+- Mobile-friendly design using Tailwind CSS
+
+
+# Technologies Used
+
+- HTML5
+- Tailwind CSS (CDN)
+- Google Fonts (Poppins)
+
+
+# Pages
+
+- Home (`index.html`)
+- About (`about.html`)
+- Services (`services.html`)
+- Contact (`contact.html`)
+
+
+# How to Run
+
 1. Clone or download this repository.
-2. Open `index.html` in any web browser.
-3. Use the navigation bar to move between Home, About, Services, and Contact pages.
+2. Open the project folder.
+3. Open `index.html` in any modern web browser.
+4. Navigate between pages using the navigation menu.
 
-File Structure
 
-1. index.html
-2. about.html
-3. services.html
-4. contact.html
-5. README.md
+# Project Structure
+
+Apex-Legion-Enterprises/
+│
+├── index.html
+├── about.html
+├── services.html
+├── contact.html
+├── images (3).jfif
+├── images (4).jfif
+├── images (2).jfif
+├── images (1).jfif
+├── images.jfif
+├── Naruto.png.jfif
+├── My image.jpeg
+└── README.md
+
+
+
+
+# Future Improvements
+
+- Add JavaScript functionality
+- Form validation
+- Dark mode
+- Backend integration for contact form
+- Online appointment booking
+
+
+
+# Author
+
+**Muhammad Talha**

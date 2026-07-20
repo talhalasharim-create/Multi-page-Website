@@ -6,120 +6,172 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apex Legion Enterprises - Services</title>
 
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@600;700;800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+
+    <style>
+        body{
+            font-family:'Poppins',sans-serif;
+        }
+    </style>
+
 </head>
 
-<body>
+<body class="bg-slate-100 text-gray-800">
+<header class="bg-slate-900 text-white shadow-lg">
 
-<header>
+    <div class="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row justify-between items-center">
 
-    <h1>Apex Legion Enterprises</h1>
+        <h1 class="text-3xl font-bold">
+            Apex Legion Enterprises
+        </h1>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a class="active" href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+        <nav class="mt-4 md:mt-0">
+
+            <ul class="flex gap-6 font-medium">
+
+                <li><a href="index.html" class="hover:text-sky-400">Home</a></li>
+
+                <li><a href="about.html" class="hover:text-sky-400">About</a></li>
+
+                <li><a href="services.html" class="text-sky-400">Services</a></li>
+
+                <li><a href="contact.html" class="hover:text-sky-400">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </div>
 
 </header>
 
-<main>
+
+<main class="max-w-7xl mx-auto px-6 py-10">
 
 
-    <section class="hero">
+    <section class="bg-white rounded-2xl shadow-lg p-10 flex flex-col lg:flex-row items-center gap-10">
 
-        <div class="hero-text">
+        <div class="lg:w-1/2">
 
-            <h2>Our Professional Services</h2>
+            <h2 class="text-5xl font-bold text-slate-900 mb-6">
+                Our Professional Services
+            </h2>
 
-            <p>
+            <p class="text-lg text-gray-600 mb-8">
+
                 We provide world-class superhero services for governments,
-                businesses, and communities around the globe.
+                businesses and communities around the globe.
+
             </p>
 
-            <a href="contact.html" class="btn">
+            <a href="contact.html"
+               class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+
                 Hire a Hero
+
             </a>
 
         </div>
 
-        <div class="hero-image">
+        <div class="lg:w-1/2">
 
-            <img src="images (4).jfif" alt="Services">
+            <img src="images (4).jfif"
+                 alt="Services"
+                 class="rounded-xl shadow-lg w-full">
 
         </div>
 
     </section>
 
- 
 
-    <section>
+    <section class="mt-12">
 
-        <h2>Featured Services</h2>
+        <h2 class="text-4xl font-bold text-center mb-10">
 
-        <div class="services-container">
+            Featured Services
 
-            <div class="service-box">
+        </h2>
 
-                <h3>🚔 Emergency Crime Response</h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
-                <p>
+            <div class="bg-white rounded-xl shadow-lg p-6">
+
+                <h3 class="text-xl font-bold text-blue-600 mb-3">
+                    🚔 Emergency Crime Response
+                </h3>
+
+                <p class="text-gray-600 mb-6">
                     Rapid hero deployment for crimes, attacks and dangerous situations.
                 </p>
 
-                <a href="contact.html" class="btn">
+                <a href="contact.html"
+                   class="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700">
+
                     Book Service
+
                 </a>
 
             </div>
 
-            <div class="service-box">
+            <div class="bg-white rounded-xl shadow-lg p-6">
 
-                <h3>🌪 Disaster Rescue</h3>
+                <h3 class="text-xl font-bold text-blue-600 mb-3">
+                    🌪 Disaster Rescue
+                </h3>
 
-                <p>
+                <p class="text-gray-600 mb-6">
                     Rescue operations during floods, earthquakes, storms and fires.
                 </p>
 
-                <a href="contact.html" class="btn">
+                <a href="contact.html"
+                   class="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700">
+
                     Book Service
+
                 </a>
 
             </div>
 
-            <div class="service-box">
+            <div class="bg-white rounded-xl shadow-lg p-6">
 
-                <h3>🛡 Public Safety</h3>
+                <h3 class="text-xl font-bold text-blue-600 mb-3">
+                    🛡 Public Safety
+                </h3>
 
-                <p>
+                <p class="text-gray-600 mb-6">
                     Safety awareness campaigns for schools, communities and companies.
                 </p>
 
-                <a href="contact.html" class="btn">
+                <a href="contact.html"
+                   class="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700">
+
                     Book Service
+
                 </a>
 
             </div>
 
-            <div class="service-box">
+            <div class="bg-white rounded-xl shadow-lg p-6">
 
-                <h3>🏢 Corporate Security</h3>
+                <h3 class="text-xl font-bold text-blue-600 mb-3">
+                    🏢 Corporate Security
+                </h3>
 
-                <p>
+                <p class="text-gray-600 mb-6">
                     Security consulting and VIP protection for organizations.
                 </p>
 
-                <a href="contact.html" class="btn">
+                <a href="contact.html"
+                   class="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700">
+
                     Book Service
+
                 </a>
 
             </div>
@@ -128,40 +180,55 @@
 
     </section>
 
-   
 
-    <section>
+    <section class="mt-12">
 
-        <h2>Why Choose Apex Legion?</h2>
+        <h2 class="text-4xl font-bold text-center mb-10">
 
-        <div class="services-container">
+            Why Choose Apex Legion?
 
-            <div class="service-box">
+        </h2>
 
-                <h3>⚡ Fast Response</h3>
+        <div class="grid md:grid-cols-3 gap-8">
 
-                <p>
+            <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+
+                <h3 class="text-2xl mb-3">⚡</h3>
+
+                <h4 class="font-bold text-xl mb-2">
+                    Fast Response
+                </h4>
+
+                <p class="text-gray-600">
                     Emergency heroes are dispatched immediately.
                 </p>
 
             </div>
 
-            <div class="service-box">
+            <div class="bg-white rounded-xl shadow-lg p-6 text-center">
 
-                <h3>🌍 Global Coverage</h3>
+                <h3 class="text-2xl mb-3">🌍</h3>
 
-                <p>
-                    Operating in more than 40 countries.
+                <h4 class="font-bold text-xl mb-2">
+                    Global Coverage
+                </h4>
+
+                <p class="text-gray-600">
+                    Operating in more than 40 countries worldwide.
                 </p>
 
             </div>
 
-            <div class="service-box">
+            <div class="bg-white rounded-xl shadow-lg p-6 text-center">
 
-                <h3>🏆 Trusted Professionals</h3>
+                <h3 class="text-2xl mb-3">🏆</h3>
 
-                <p>
-                    Licensed and highly trained superheroes.
+                <h4 class="font-bold text-xl mb-2">
+                    Trusted Professionals
+                </h4>
+
+                <p class="text-gray-600">
+                    Licensed, insured and highly trained superheroes.
                 </p>
 
             </div>
@@ -172,13 +239,15 @@
 
 </main>
 
-<footer>
+<footer class="bg-slate-900 text-white mt-16">
 
-    <div class="footer-top">
+    <div class="max-w-7xl mx-auto px-6 py-10 grid md:grid-cols-4 gap-8">
 
-        <div class="footer-column">
+        <div>
 
-            <h3>Company</h3>
+            <h3 class="text-xl font-semibold mb-4">
+                Company
+            </h3>
 
             <p>Apex Legion Enterprises</p>
 
@@ -186,44 +255,64 @@
 
         </div>
 
-        <div class="footer-column">
+        <div>
 
-            <h3>Quick Links</h3>
+            <h3 class="text-xl font-semibold mb-4">
+                Quick Links
+            </h3>
 
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
+            <ul class="space-y-2">
+
+                <li><a href="index.html" class="hover:text-sky-400">Home</a></li>
+
+                <li><a href="about.html" class="hover:text-sky-400">About</a></li>
+
+                <li><a href="services.html" class="hover:text-sky-400">Services</a></li>
+
+                <li><a href="contact.html" class="hover:text-sky-400">Contact</a></li>
+
+            </ul>
 
         </div>
 
-        <div class="footer-column">
+        <div>
 
-            <h3>Contact</h3>
+            <h3 class="text-xl font-semibold mb-4">
+                Contact
+            </h3>
 
-            <p>Email: info@apexlegion.com</p>
+            <p>info@apexlegion.com</p>
 
-            <p>Phone: +92 300 1234567</p>
+            <p>+92 300 1234567</p>
 
         </div>
 
-        <div class="footer-column">
+        <div>
 
-            <h3>Follow Us</h3>
+            <h3 class="text-xl font-semibold mb-4">
+                Follow Us
+            </h3>
 
-            <div class="social-icons">
-                <a href="#" aria-label="Facebook">FB</a>
-                <a href="#" aria-label="Instagram">IG</a>
-                <a href="#" aria-label="LinkedIn">in</a>
-                <a href="#" aria-label="Twitter">X</a>
+            <div class="flex gap-4">
+
+                <a href="#" class="hover:text-sky-400">Facebook</a>
+
+                <a href="#" class="hover:text-sky-400">Instagram</a>
+
+                <a href="#" class="hover:text-sky-400">LinkedIn</a>
+
+                <a href="#" class="hover:text-sky-400">Twitter</a>
+
             </div>
 
         </div>
 
     </div>
 
-    <div class="footer-bottom">
-        <p>&copy; 2026 Apex Legion Enterprises. All Rights Reserved.</p>
+    <div class="bg-slate-950 text-center py-4">
+
+        © 2026 Apex Legion Enterprises. All Rights Reserved.
+
     </div>
 
 </footer>

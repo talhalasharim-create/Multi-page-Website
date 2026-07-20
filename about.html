@@ -6,234 +6,304 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apex Legion Enterprises - About</title>
 
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@600;700;800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+
 </head>
 
-<body>
-
-<header>
-
-    <h1>Apex Legion Enterprises</h1>
-
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a class="active" href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-
-</header>
-
-<main>
+<body class="bg-slate-100 text-gray-800">
 
 
+    <header class="bg-slate-900 text-white shadow-lg">
 
-    <section class="hero">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row justify-between items-center">
 
-        <div class="hero-text">
+            <h1 class="text-3xl font-bold">
+                Apex Legion Enterprises
+            </h1>
 
-            <h2>About Apex Legion Enterprises</h2>
+            <nav class="mt-4 md:mt-0">
 
-            <p>
-                Protecting cities and saving lives with professional superhero services since 2006.
+                <ul class="flex gap-6 font-medium">
+
+                    <li><a href="index.html" class="hover:text-sky-400">Home</a></li>
+                    <li><a href="about.html" class="text-sky-400">About</a></li>
+                    <li><a href="services.html" class="hover:text-sky-400">Services</a></li>
+                    <li><a href="contact.html" class="hover:text-sky-400">Contact</a></li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main class="max-w-7xl mx-auto px-6 py-10">
+
+
+        <section class="bg-white rounded-2xl shadow-lg p-10 flex flex-col lg:flex-row items-center gap-10">
+
+            <div class="lg:w-1/2">
+
+                <h2 class="text-5xl font-bold mb-6 text-slate-900">
+                    About Apex Legion Enterprises
+                </h2>
+
+                <p class="text-lg text-gray-600">
+
+                    Protecting cities and saving lives with professional superhero
+                    services since 2006.
+
+                </p>
+
+            </div>
+
+            <div class="lg:w-1/2">
+
+                <img src="images (3).jfif"
+                    alt="About"
+                    class="rounded-xl shadow-lg w-full">
+
+            </div>
+
+        </section>
+
+
+        <section class="bg-white rounded-2xl shadow-lg p-8 mt-10">
+
+            <h2 class="text-3xl font-bold mb-4">
+
+                Our Story
+
+            </h2>
+
+            <p class="text-gray-600 mb-4">
+
+                Founded in 2006 by retired superheroes, Apex Legion Enterprises
+                has grown into a worldwide organization with more than
+                500 registered heroes across 40 countries.
+
             </p>
 
-        </div>
+            <p class="text-gray-600">
 
-        <div class="hero-image">
+                We work with governments, hospitals, emergency responders
+                and disaster relief organizations to keep communities safe.
 
-            <img src="images (3).jfif" alt="About Apex Legion">
-
-        </div>
-
-    </section>
-
-
-    <section>
-
-        <h2>Our Story</h2>
-
-        <p>
-            Founded in 2006 by retired superheroes, Apex Legion Enterprises has grown into a global
-            organization with more than 500 registered heroes operating across 40 countries.
-        </p>
-
-        <p>
-            We work alongside governments, hospitals, emergency responders, and disaster relief
-            organizations to keep communities safe.
-        </p>
-
-    </section>
-
-
-    <section>
-
-        <h2>Our Mission</h2>
-
-        <div class="service-box">
-
-            <p>
-                To provide reliable superhero services that protect lives, property, and peace while
-                promoting responsible use of superpowers worldwide.
             </p>
 
-        </div>
-
-    </section>
+        </section>
 
 
-    <section>
+        <section class="grid md:grid-cols-2 gap-8 mt-10">
 
-        <h2>Our Vision</h2>
+            <div class="bg-white rounded-2xl shadow-lg p-8">
 
-        <div class="service-box">
+                <h2 class="text-3xl font-bold mb-4">
 
-            <p>
-                To become the world's most trusted superhero organization where every city has
-                immediate access to heroic support.
-            </p>
+                    Our Mission
 
-        </div>
+                </h2>
 
-    </section>
+                <p class="text-gray-600">
 
+                    To provide reliable superhero services that protect
+                    lives, property and peace while promoting responsible
+                    use of superpowers worldwide.
 
-    <section>
-
-        <h2>Meet Our Heroes</h2>
-
-        <div class="team-container">
-
-            <div class="team-card">
-
-                <img src="images (2).jfif" alt="Batman">
-
-                <h3>Batman</h3>
-
-                <p><strong>CEO</strong></p>
-
-                <p>Provides leadership and strategic direction.</p>
+                </p>
 
             </div>
 
-            <div class="team-card">
+            <div class="bg-white rounded-2xl shadow-lg p-8">
 
-                <img src="images (1).jfif" alt="Superman">
+                <h2 class="text-3xl font-bold mb-4">
 
-                <h3>Superman</h3>
+                    Our Vision
 
-                <p><strong>COO</strong></p>
+                </h2>
 
-                <p>Leads global rescue and emergency missions.</p>
+                <p class="text-gray-600">
 
-            </div>
+                    To become the world's most trusted superhero
+                    organization where every city has immediate
+                    heroic support.
 
-            <div class="team-card">
-
-                <img src="images.jfif" alt="Spider-Man">
-
-                <h3>Spider-Man</h3>
-
-                <p><strong>Senior Hero</strong></p>
-
-                <p>Expert in rapid response and rescue operations.</p>
+                </p>
 
             </div>
 
-            <div class="team-card">
+        </section>
 
-                <img src="Naruto.png.jfif" alt="Naruto">
 
-                <h3>Naruto</h3>
+        <section class="mt-12">
 
-                <p><strong>Hero</strong></p>
+            <h2 class="text-4xl font-bold text-center mb-10">
 
-                <p>Specialist in disaster response and community protection.</p>
+                Meet Our Heroes
+
+            </h2>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
+
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+
+                    <img src="images (2).jfif"
+                        class="w-32 h-32 rounded-full mx-auto object-cover mb-4">
+
+                    <h3 class="text-xl font-bold">Batman</h3>
+
+                    <p class="text-blue-600 font-semibold">CEO</p>
+
+                    <p class="text-gray-600 mt-3">
+                        Provides leadership and strategic direction.
+                    </p>
+
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+
+                    <img src="images (1).jfif"
+                        class="w-32 h-32 rounded-full mx-auto object-cover mb-4">
+
+                    <h3 class="text-xl font-bold">Superman</h3>
+
+                    <p class="text-blue-600 font-semibold">COO</p>
+
+                    <p class="text-gray-600 mt-3">
+                        Leads global rescue missions.
+                    </p>
+
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+
+                    <img src="images.jfif"
+                        class="w-32 h-32 rounded-full mx-auto object-cover mb-4">
+
+                    <h3 class="text-xl font-bold">Spider-Man</h3>
+
+                    <p class="text-blue-600 font-semibold">Senior Hero</p>
+
+                    <p class="text-gray-600 mt-3">
+                        Expert in rapid response operations.
+                    </p>
+
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+
+                    <img src="Naruto.png.jfif"
+                        class="w-32 h-32 rounded-full mx-auto object-cover mb-4">
+
+                    <h3 class="text-xl font-bold">Naruto</h3>
+
+                    <p class="text-blue-600 font-semibold">Hero</p>
+
+                    <p class="text-gray-600 mt-3">
+                        Disaster response specialist.
+                    </p>
+
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+
+                    <img src="My image.jpeg"
+                        class="w-32 h-32 rounded-full mx-auto object-cover mb-4">
+
+                    <h3 class="text-xl font-bold">Talha-Man</h3>
+
+                    <p class="text-blue-600 font-semibold">Strongest Hero</p>
+
+                    <p class="text-gray-600 mt-3">
+                        Handles the toughest missions and protects humanity.
+                    </p>
+
+                </div>
 
             </div>
 
-            <div class="team-card">
+        </section>
 
-                <img src="My image.jpeg" alt="Talha-Man">
+    </main>
 
-                <h3>Talha-Man</h3>
+    <footer class="bg-slate-900 text-white mt-16">
 
-                <p><strong>Strongest Hero</strong></p>
+        <div class="max-w-7xl mx-auto px-6 py-10 grid md:grid-cols-4 gap-8">
 
-                <p>The ultimate protector capable of handling the toughest missions.</p>
+            <div>
+
+                <h3 class="text-xl font-semibold mb-4">Company</h3>
+
+                <p>Apex Legion Enterprises</p>
+
+                <p>Professional Superhero Services Since 2006</p>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+
+                <ul class="space-y-2">
+
+                    <li><a href="index.html" class="hover:text-sky-400">Home</a></li>
+                    <li><a href="about.html" class="hover:text-sky-400">About</a></li>
+                    <li><a href="services.html" class="hover:text-sky-400">Services</a></li>
+                    <li><a href="contact.html" class="hover:text-sky-400">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-xl font-semibold mb-4">Contact</h3>
+
+                <p>info@apexlegion.com</p>
+
+                <p>+92 300 1234567</p>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-xl font-semibold mb-4">Follow Us</h3>
+
+                <div class="flex gap-4">
+
+                    <a href="#" class="hover:text-sky-400">Facebook</a>
+                    <a href="#" class="hover:text-sky-400">Instagram</a>
+                    <a href="#" class="hover:text-sky-400">LinkedIn</a>
+                    <a href="#" class="hover:text-sky-400">Twitter</a>
+
+                </div>
 
             </div>
 
         </div>
 
-    </section>
+        <div class="bg-slate-950 text-center py-4">
 
-</main>
-
-<footer>
-
-    <div class="footer-top">
-
-        <div class="footer-column">
-
-            <h3>Company</h3>
-
-            <p>Apex Legion Enterprises</p>
-
-            <p>Professional Superhero Services Since 2006</p>
+            © 2026 Apex Legion Enterprises. All Rights Reserved.
 
         </div>
 
-        <div class="footer-column">
-
-            <h3>Quick Links</h3>
-
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
-
-        </div>
-
-        <div class="footer-column">
-
-            <h3>Contact</h3>
-
-            <p>Email: info@apexlegion.com</p>
-
-            <p>Phone: +92 300 1234567</p>
-
-        </div>
-
-        <div class="footer-column">
-
-            <h3>Follow Us</h3>
-
-            <div class="social-icons">
-                <a href="#" aria-label="Facebook">FB</a>
-                <a href="#" aria-label="Instagram">IG</a>
-                <a href="#" aria-label="LinkedIn">in</a>
-                <a href="#" aria-label="Twitter">X</a>
-            </div>
-
-        </div>
-
-    </div>
-
-    <div class="footer-bottom">
-        <p>&copy; 2026 Apex Legion Enterprises. All Rights Reserved.</p>
-    </div>
-
-</footer>
-
+    </footer>
 
 </body>
+
 </html>

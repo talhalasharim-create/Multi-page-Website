@@ -6,189 +6,339 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apex Legion Enterprises - Contact</title>
 
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+
 </head>
 
-<body>
+<body class="bg-slate-100 text-gray-800">
 
-<header>
+    <header class="bg-slate-900 text-white shadow-lg">
 
-    <h1>Apex Legion Enterprises</h1>
+        <div class="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row justify-between items-center">
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a class="active" href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+            <h1 class="text-3xl font-bold">
+                Apex Legion Enterprises
+            </h1>
 
-</header>
+            <nav class="mt-4 md:mt-0">
 
-<main>
+                <ul class="flex gap-6 font-medium">
 
+                    <li><a href="index.html" class="hover:text-sky-400">Home</a></li>
 
-    <section class="hero">
+                    <li><a href="about.html" class="hover:text-sky-400">About</a></li>
 
-        <div class="hero-text">
+                    <li><a href="services.html" class="hover:text-sky-400">Services</a></li>
 
-            <h2>Contact Apex Legion Enterprises</h2>
+                    <li><a href="contact.html" class="text-sky-400">Contact</a></li>
 
-            <p>
-                Need a superhero? Have a question? Contact us anytime.
-                Our team is available 24/7 to assist you.
-            </p>
+                </ul>
+
+            </nav>
 
         </div>
 
-        <div class="hero-image">
+    </header>
 
-            <img src="images (4).jfif" alt="Contact Us">
+    <main class="max-w-7xl mx-auto px-6 py-10">
 
-        </div>
+        <section class="bg-white rounded-2xl shadow-lg p-10 flex flex-col lg:flex-row items-center gap-10">
 
-    </section>
+            <div class="lg:w-1/2">
 
-    <section>
+                <h2 class="text-5xl font-bold text-slate-900 mb-6">
+                    Contact Apex Legion Enterprises
+                </h2>
 
-        <h2>Contact Information</h2>
+                <p class="text-lg text-gray-600">
 
-        <div class="services-container">
+                    Need a superhero? Have a question?
+                    Contact us anytime. Our team is available 24/7
+                    to assist you.
 
-            <div class="service-box">
-
-                <h3>📍 Office</h3>
-
-                <p>
-                    Apex Legion Enterprises<br>
-                    Tony Stark Tower<br>
-                    Justice Avenue, Metro City
                 </p>
 
             </div>
 
-            <div class="service-box">
+            <div class="lg:w-1/2">
 
-                <h3>📧 Email</h3>
-
-                <p>info@apexlegion.com</p>
+                <img src="images (4).jfif"
+                    alt="Contact"
+                    class="rounded-xl shadow-lg w-full">
 
             </div>
 
-            <div class="service-box">
+        </section>
 
-                <h3>📞 Phone</h3>
+
+        <section class="mt-12">
+
+            <h2 class="text-4xl font-bold text-center mb-10">
+
+                Contact Information
+
+            </h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+
+                    <h3 class="text-2xl mb-3">📍</h3>
+
+                    <h4 class="font-bold text-xl mb-2">
+
+                        Office
+
+                    </h4>
+
+                    <p class="text-gray-600">
+
+                        Apex Legion Enterprises<br>
+                        Tony Stark Tower<br>
+                        Justice Avenue, Metro City
+
+                    </p>
+
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+
+                    <h3 class="text-2xl mb-3">📧</h3>
+
+                    <h4 class="font-bold text-xl mb-2">
+
+                        Email
+
+                    </h4>
+
+                    <p class="text-gray-600">
+
+                        info@apexlegion.com
+
+                    </p>
+
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+
+                    <h3 class="text-2xl mb-3">📞</h3>
+
+                    <h4 class="font-bold text-xl mb-2">
+
+                        Phone
+
+                    </h4>
+
+                    <p class="text-gray-600">
+
+                        +92 300 1234567
+
+                    </p>
+
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+
+                    <h3 class="text-2xl mb-3">🕒</h3>
+
+                    <h4 class="font-bold text-xl mb-2">
+
+                        Working Hours
+
+                    </h4>
+
+                    <p class="text-gray-600">
+
+                        24 Hours | 7 Days a Week
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="mt-12">
+
+            <h2 class="text-4xl font-bold text-center mb-10">
+
+                Send Us a Message
+
+            </h2>
+
+            <div class="bg-white rounded-2xl shadow-lg p-8 max-w-3xl mx-auto">
+
+                <form action="#" class="space-y-6">
+
+                    <div>
+
+                        <label class="block font-semibold mb-2">
+                            Full Name
+                        </label>
+
+                        <input type="text"
+                            placeholder="Enter your full name"
+                            required
+                            class="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+                    </div>
+
+                    <div>
+
+                        <label class="block font-semibold mb-2">
+                            Email Address
+                        </label>
+
+                        <input type="email"
+                            placeholder="Enter your email"
+                            required
+                            class="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+                    </div>
+
+                    <div>
+
+                        <label class="block font-semibold mb-2">
+                            Phone Number
+                        </label>
+
+                        <input type="tel"
+                            placeholder="Enter your phone number"
+                            class="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+                    </div>
+
+                    <div>
+
+                        <label class="block font-semibold mb-2">
+                            Subject
+                        </label>
+
+                        <input type="text"
+                            placeholder="Enter subject"
+                            class="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+                    </div>
+
+                    <div>
+
+                        <label class="block font-semibold mb-2">
+                            Message
+                        </label>
+
+                        <textarea rows="6"
+                            placeholder="Write your message here..."
+                            required
+                            class="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+
+                    </div>
+
+                    <button type="submit"
+                        class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+
+                        Send Message
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-white mt-16">
+
+        <div class="max-w-7xl mx-auto px-6 py-10 grid md:grid-cols-4 gap-8">
+
+            <div>
+
+                <h3 class="text-xl font-semibold mb-4">
+                    Company
+                </h3>
+
+                <p>Apex Legion Enterprises</p>
+
+                <p>Professional Superhero Services Since 2006</p>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-xl font-semibold mb-4">
+                    Quick Links
+                </h3>
+
+                <ul class="space-y-2">
+
+                    <li><a href="index.html" class="hover:text-sky-400">Home</a></li>
+
+                    <li><a href="about.html" class="hover:text-sky-400">About</a></li>
+
+                    <li><a href="services.html" class="hover:text-sky-400">Services</a></li>
+
+                    <li><a href="contact.html" class="hover:text-sky-400">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-xl font-semibold mb-4">
+                    Contact
+                </h3>
+
+                <p>info@apexlegion.com</p>
 
                 <p>+92 300 1234567</p>
 
             </div>
 
-            <div class="service-box">
+            <div>
 
-                <h3>🕒 Working Hours</h3>
+                <h3 class="text-xl font-semibold mb-4">
+                    Follow Us
+                </h3>
 
-                <p>24 Hours | 7 Days a Week</p>
+                <div class="flex gap-4">
+
+                    <a href="#" class="hover:text-sky-400">Facebook</a>
+
+                    <a href="#" class="hover:text-sky-400">Instagram</a>
+
+                    <a href="#" class="hover:text-sky-400">LinkedIn</a>
+
+                    <a href="#" class="hover:text-sky-400">Twitter</a>
+
+                </div>
 
             </div>
 
         </div>
 
-    </section>
+        <div class="bg-slate-950 text-center py-4">
 
-
-    <section>
-
-        <h2>Send Us a Message</h2>
-
-        <form action="#">
-
-            <label>Full Name</label>
-            <input type="text" placeholder="Enter your full name" required>
-
-            <label>Email Address</label>
-            <input type="email" placeholder="Enter your email" required>
-
-            <label>Phone Number</label>
-            <input type="tel" placeholder="Enter your phone number">
-
-            <label>Subject</label>
-            <input type="text" placeholder="Enter subject">
-
-            <label>Message</label>
-            <textarea rows="6" placeholder="Write your message here..." required></textarea>
-
-            <button class="btn" type="submit">
-                Send Message
-            </button>
-
-        </form>
-
-    </section>
-
-</main>
-
-<footer>
-
-    <div class="footer-top">
-
-        <div class="footer-column">
-
-            <h3>Company</h3>
-
-            <p>Apex Legion Enterprises</p>
-
-            <p>Professional Superhero Services Since 2006</p>
+            © 2026 Apex Legion Enterprises. All Rights Reserved.
 
         </div>
 
-        <div class="footer-column">
-
-            <h3>Quick Links</h3>
-
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
-
-        </div>
-
-        <div class="footer-column">
-
-            <h3>Contact</h3>
-
-            <p>Email: info@apexlegion.com</p>
-
-            <p>Phone: +92 300 1234567</p>
-
-        </div>
-
-        <div class="footer-column">
-
-            <h3>Follow Us</h3>
-
-            <div class="social-icons">
-                <a href="#" aria-label="Facebook">FB</a>
-                <a href="#" aria-label="Instagram">IG</a>
-                <a href="#" aria-label="LinkedIn">in</a>
-                <a href="#" aria-label="Twitter">X</a>
-            </div>
-
-        </div>
-
-    </div>
-
-    <div class="footer-bottom">
-        <p>&copy; 2026 Apex Legion Enterprises. All Rights Reserved.</p>
-    </div>
-
-</footer>
+    </footer>
 
 </body>
+
 </html>
